@@ -2,8 +2,12 @@
 <html lang="fr">
 <head>
     {{content_for_header}}
+    <title>{{ page_title }} - {{ shop.name }}</title>
+    {{ 'theme.css' | asset_url | stylesheet_tag }}
 </head>
 <body>
+    {% section 'header' %}
     {{ content_for_layout }}
+    {% section 'footer' %} 
 </body>
 </html>
