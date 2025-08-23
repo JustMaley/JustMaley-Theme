@@ -48,7 +48,7 @@ button {
     margin: 0 auto;
 }
 
-/* bottom header */
+/* bottom header
 .bottom-header {
     background: rgb(255, 255, 255)(0, 0, 0);
     position: fixed;
@@ -57,7 +57,7 @@ button {
     transform: translateX(-50%);
     width: 95vw;
     height: 8vh;
-    /* margin: 0 auto; */
+    /* margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,7 @@ button {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-}
+} */
 
 
 
